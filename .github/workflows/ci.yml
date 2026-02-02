@@ -42,3 +42,5 @@ jobs:
         with:
           name: week6-python-app
           path: build/
+      - name: Unit Tests
+        run: pytest
