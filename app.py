@@ -1,5 +1,0 @@
-cur.execute("CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT);")
-cur.execute("INSERT INTO users (name) VALUES ('Shayan');")
-cur.execute("SELECT * FROM users;")
-rows = cur.fetchall()
-print(rows)
